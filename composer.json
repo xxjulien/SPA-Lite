@@ -1,0 +1,18 @@
+// Script trouvé sur NetNPB.com 
+{
+  "_author": "Code par NetNPB.com",
+  "name": "your-vendor/spa-lite",
+  "description": "Mini SPA router for Laravel using Blade and fetch",
+  "autoload": {
+    "psr-4": {
+      "YourVendor\\SPALite\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "YourVendor\\SPALite\\SPALiteServiceProvider"
+      ]
+    }
+  }
+}
